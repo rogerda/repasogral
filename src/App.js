@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import Button from 'react-bootstrap/Button';
+import {BsFillCartCheckFill} from 'react-icons/bs'
 
 function App() {
   return (
@@ -15,8 +17,11 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Vamos con todo!
         </a>
+        <Button variant="success">
+        <BsFillCartCheckFill/>
+          </Button>
       </header>
     </div>
   );
